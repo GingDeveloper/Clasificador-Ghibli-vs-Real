@@ -44,7 +44,16 @@ cd Clasificador-Ghibli-vs-Real
 
 ```
 
-### 2. Instalación de dependencias
+### 2. Descargar el Dataset
+
+1. Descarga el dataset desde [Descargar](https://www.kaggle.com/datasets/shubham1921/real-to-ghibli-image-dataset-5k-paired-images).
+
+2. Descomprime el archivo descargado.
+
+3. Coloca la carpeta `dataset/` que contiene las carpetas `trainA` (imágenes reales) y `trainB_ghibli` (imágenes Ghibli) dentro de la carpeta del proyecto.
+
+
+### 3. Instalación de dependencias
 
 ```bash
 
@@ -52,7 +61,15 @@ pip install numpy scikit-learn opencv-python
 
 ```
 
-### 3. Ejecuta el script de entrenamiento para comparar los tres modelos:
+### 4. Ejecuta el script de procesamiento, esto generara una carpeta data con los .npy que se requieren:
+
+```bash
+
+python procesamiento.py
+
+```
+
+### 5. Ejecuta el script de entrenamiento para comparar los tres modelos:
 
 ```bash
 
