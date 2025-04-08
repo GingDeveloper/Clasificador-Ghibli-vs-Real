@@ -79,4 +79,4 @@ python entrenamiento.py
 
 ## Importante Considerar
 
-Al entrenar los modelos, el modleo SVM demorara mucho mas que el resto y dependera del hardware, por lo que se debe esperar unos minutos
+Al entrenar los modelos, el modelo SVM demorara mucho mas que el resto y dependera de tu hardware, por lo que se debe esperar unos minutos
