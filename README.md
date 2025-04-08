@@ -46,7 +46,7 @@ cd Clasificador-Ghibli-vs-Real
 
 ### 2. Descargar el Dataset
 
-1. Descarga el dataset desde [Descargar](https://www.kaggle.com/datasets/shubham1921/real-to-ghibli-image-dataset-5k-paired-images).
+1. Descarga el dataset: [Descargar](https://www.kaggle.com/datasets/shubham1921/real-to-ghibli-image-dataset-5k-paired-images).
 
 2. Descomprime el archivo descargado.
 
