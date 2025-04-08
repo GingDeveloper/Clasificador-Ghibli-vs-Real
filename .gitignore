@@ -1,0 +1,7 @@
+data/
+dataset/
+*.npy
+
+__pycache__/
+*.py[cod]
+*.pyc
