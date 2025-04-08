@@ -59,9 +59,10 @@ print(f"- Forma de X_test: {X_test.shape}")
 print(f"- Ejemplo de etiquetas en y_train: {y_train[:5]}")
 
 # Guardado de datos preprocesados
-np.save("X_train.npy", X_train)
-np.save("X_test.npy", X_test)
-np.save("y_train.npy", y_train)
-np.save("y_test.npy", y_test)
+os.makedirs("data", exist_ok=True)
+np.save("data/X_train.npy", X_train)
+np.save("data/X_test.npy", X_test)
+np.save("data/y_train.npy", y_train)
+np.save("data/y_test.npy", y_test)
 
-print("\nPreprocesamiento listo, los datos se guardaron en .npy")
+print("\nPreprocesamiento listo, los datos se guardaron en .npy en la carpeta data")
