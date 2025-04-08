@@ -76,3 +76,7 @@ python procesamiento.py
 python entrenamiento.py
 
 ```
+
+## Importante Considerar
+
+Al entrenar los modelos, el modleo SVM demorara mucho mas que el resto y dependera del hardware, por lo que se debe esperar unos minutos
